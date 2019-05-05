@@ -61,20 +61,22 @@ export default () => (
             {/* <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
             <br /> */}
             <p>
-              I'm a developer with a mechanical engineering education and five years of experience as a technical consultant. I enjoy working with
-              all different kinds of technologies, and I'm always up to learn a new language or technology.
-              I've self-taught myself languages on the fly to get the job done.
+              I'm a developer with five years of experience as a technical consultant. I enjoy working with
+              all different kinds of technologies. I have a passion for front-end development, and also have experiecne in .NET and C#. And I'm always up to learn a new language or technology. 
+              <br />
+              <br />
+              I'm a quick learner and can learn on the fly to get the job done. I love digging in and solving problems. I don't take myself too seriously, love a good team setting, but always take my work professionally. 
               <br />
               <br />
               {/* As a Senior Consultant at Gimmal, I filled the technical roles of projects. This included
               creating custom applications and interfaces for our clients in SharePoint.
               <br />
               <br /> */}
-              I was drawn to development through my mechnical engineering education. I started doing research
+              {/* I was drawn to development through my mechnical engineering education. I started doing research
               during my undergraduate career around spacecraft re-entry. I was intrigued by the physics around
               the process along with the software being used to complete the calculations. From there, I persued a Master's Degree from Johns Hopkins in Mechanical Engineering with a
               focus in Fluid Mechanics. While completing my Master's degree, I worked on post-processing data from 
-              fluid flow calculations in Python along with writing separate small programs doing numerical analysis.
+              fluid flow calculations in Python along with writing separate small programs doing numerical analysis. */}
               <br />
               <br />
               <strong>Proficient in:</strong> JavaScript(experience with React and  Node.js), HTML, CSS, C#, PowerShell, and SharePoint 2013/SharePoint 2016/SharePoint Online.  
