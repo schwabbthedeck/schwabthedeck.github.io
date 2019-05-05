@@ -3,9 +3,8 @@ module.exports = {
   siteMetadata: {
     title: `Software Developer with a Mechanical Engineering educaiton`,
     description: `Add you meta Description here!`,
-    url: "https://ugglr.github.io/gatsby-clean-portfolio/",
-    twitterUsername: "@real_carlw",
-    author: `@real_carlw`,
+    url: "janeschwab.co",
+    author: `Jane Schwab`,
   },
   plugins: [
     {

@@ -25,6 +25,7 @@ const Footer = () => (
               href="https://www.linkedin.com/in/jane-schwab-b7019538/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: "midnightblue "}}
             > LinkedIn </a> 
             or 
             <a href="mailto:jane.a.schwab@gmail.com" target="_blank" rel="noopener noreferrer"> email</a>

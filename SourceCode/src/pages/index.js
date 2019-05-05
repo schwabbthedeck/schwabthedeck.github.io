@@ -48,7 +48,7 @@ export default () => (
       <hr />
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
-          <MyButton text={"CV download"} URL={CV} />
+          <MyButton text={"Resume download"} URL={CV} />
           <MyButton text={"LinkedIn Profile"} URL="https://www.linkedin.com/in/jane-schwab-b7019538/" />
         </Row>
         <Row>
