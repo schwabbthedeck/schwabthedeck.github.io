@@ -106,19 +106,15 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              ● Develop custom code solutions for clients, primarily based in and around SharePoint technologies  
-              <br/>
-              ● Create custom UI interactions using HTML, CSS, and JavaScript catered to the client’s preferences  
-              <br/>
-              ● Lead small projects for custom solutions, including a custom “connector” from Gimmal Software to third-party software  
-              <br/>
-              ● Collaborate with project managers and clients to understand needs, incorporate regular feedback, and create desired outcomes  
-              <br/>
-              ● Translate design documents and mock-ups into working pages and solutions  
-              <br/>
-              ● Train other consultants at Gimmal in installing products, troubleshooting issues, and writing customized  code for their clients  
-              <br/>
-              ● Contribute to Support Team in research and triage of support tickets 
+              <ul style={{ listStyle: "disc" }}>
+                <li>Develop custom code solutions for clients, primarily based in and around SharePoint technologies</li>
+                <li>Create custom UI interactions using HTML, CSS, and JavaScript catered to the client’s preferences </li>
+                <li>Lead small projects for custom solutions, including a custom “connector” from Gimmal Software to third-party software </li>
+                <li>Collaborate with project managers and clients to understand needs, incorporate regular feedback, and create desired outcomes</li>
+                <li>Translate design documents and mock-ups into working pages and solutions  </li>
+                <li>Train other consultants at Gimmal in installing products, troubleshooting issues, and writing customized code for their clients </li>
+                <li>Contribute to Support Team in research and triage of support tickets </li>
+              </ul> 
             </p>
           </Col>
         </Row>
@@ -136,15 +132,13 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              ● Worked alongside a team of project managers, architects, and other developers to engineer SharePoint software solutions and new Gimmal products  
-              <br/>
-              ● Translated mockups and wireframes by UX Designers into functional UI/UX SharePoint pages using  JavaScript, CSS and HTML  
-              <br/>
-              ● Used Microsoft.Net and C# to build services to interact with each client’s application  
-              <br/>
-              ● Assisted with ongoing product troubleshooting, including investigating and resolving reported bugs  
-              <br/>
-              ● Ensured codebase integrity by working with development team members using Team Foundation Server
+              <ul style={{ listStyle: "disc" }}>
+                <li>Worked alongside a team of project managers, architects, and other developers to engineer SharePoint software solutions and new Gimmal products  </li>
+                <li>Translated mockups and wireframes by UX Designers into functional UI/UX SharePoint pages using  JavaScript, CSS and HTML  </li>
+                <li>Used Microsoft.Net and C# to build services to interact with each client’s application  </li>
+                <li>Assisted with ongoing product troubleshooting, including investigating and resolving reported bugs</li>
+                <li>Ensured codebase integrity by working with development team members using Team Foundation Server</li>
+              </ul> 
             </p>
           </Col>
         </Row>
@@ -162,13 +156,12 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              ● Developed Documentum application, including Object Model, Cabinet/Folder Structure, and Java  Methods implemented via Documentum Jobs   
-              <br/>
-              ● Customized subversion repository, including creating and managing users and access levels   
-              <br/>
-              ● Completed Beach Street Documentum 101 Training   
-              <br/>
-              ● Completed EMC D2 training
+              <ul style={{ listStyle: "disc" }}>
+                <li>Developed Documentum application, including Object Model, Cabinet/Folder Structure, and Java Methods implemented via Documentum Jobs</li>
+                <li>Customized subversion repository, including creating and managing users and access levels</li>
+                <li>Completed Beach Street Documentum 101 Training</li>
+                <li>Completed EMC D2 training</li>
+              </ul>
             </p>
           </Col>
         </Row>
@@ -186,15 +179,13 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              ● Conducted Computational Fluid Dynamics (CFD) analysis to determine drag and lift forces of various objects ejected from a space vehicle during re-entry; parameters were used to establish flight trajectory and determine risk of collision with space vehicle  
-              <br/>
-              ● Analyzed materials using geometry generation, set up simulations using ANSYS/Fluent, and processed and post-processed results   
-              <br/>
-              ● Prepared and presented reports at research meetings with faculty, graduate researcher, and industry  sponsor  
-              <br/>
-              ● Presented work at the Annual Meeting of the American Physical Society, Division of Fluid Dynamics in  Baltimore, MD, November 2011  
-              <br/>
-              ● Project Sponsor: Pioneer Aerospace; Project Advisor: Dr. Maria-Isabel Carnasciali
+              <ul style={{ listStyle: "disc" }}>
+                <li>Conducted Computational Fluid Dynamics (CFD) analysis to determine drag and lift forces of various objects ejected from a space vehicle during re-entry; parameters were used to establish flight trajectory and determine risk of collision with space vehicle</li>
+                <li>Analyzed materials using geometry generation, set up simulations using ANSYS/Fluent, and processed and post-processed results</li>
+                <li>Prepared and presented reports at research meetings with faculty, graduate researcher, and industry sponsor</li>
+                <li>Presented work at the Annual Meeting of the American Physical Society, Division of Fluid Dynamics in Baltimore, MD, November 2011</li>
+                <li>Project Sponsor: Pioneer Aerospace; Project Advisor: Dr. Maria-Isabel Carnasciali</li>
+              </ul>
             </p>
           </Col>
         </Row>
