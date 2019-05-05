@@ -76,9 +76,9 @@ export default () => (
               during my undergraduate career around spacecraft re-entry. I was intrigued by the physics around
               the process along with the software being used to complete the calculations. From there, I persued a Master's Degree from Johns Hopkins in Mechanical Engineering with a
               focus in Fluid Mechanics. While completing my Master's degree, I worked on post-processing data from 
-              fluid flow calculations in Python along with writing separate small programs doing numerical analysis. */}
+              fluid flow calculations in Python along with writing separate small programs doing numerical analysis. 
               <br />
-              <br />
+              <br />*/}
               <strong>Proficient in:</strong> JavaScript(experience with React and  Node.js), HTML, CSS, C#, PowerShell, and SharePoint 2013/SharePoint 2016/SharePoint Online.  
               <br />
               <strong>Knowledgeable in:</strong> Python, MATLAB, and LaTeX. 
