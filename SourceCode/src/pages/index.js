@@ -79,11 +79,11 @@ export default () => (
               fluid flow calculations in Python along with writing separate small programs doing numerical analysis. 
               <br />
               <br />*/}
-              <strong>Proficient in:</strong> JavaScript(experience with React and  Node.js), HTML, CSS, C#, PowerShell, and SharePoint 2013/SharePoint 2016/SharePoint Online.  
+              <strong>Proficient in:</strong> JavaScript (experience with React and  Node.js), HTML, CSS, C#, PowerShell, and SharePoint 2013/SharePoint 2016/SharePoint Online.  
               <br />
               <strong>Knowledgeable in:</strong> Python, MATLAB, and LaTeX. 
               <br />
-              <strong>Familiarity and past experience with:</strong> C++, C, Java,  VBA, Ubuntu, Labview, Solidworks, AutoDesk Inventor, ANSYS/Fluent v. 13. 
+              <strong>Familiarity and past experience with:</strong> C++, C, Java,  VBA, Ubuntu, Labview, Solidworks, AutoDesk Inventor, ANSYS/Fluent v13. 
 
             </p>
           </Col>
@@ -113,9 +113,11 @@ export default () => (
                 <li>Create custom UI interactions using HTML, CSS, and JavaScript catered to the client’s preferences </li>
                 <li>Lead small projects for custom solutions, including a custom “connector” from Gimmal Software to third-party software </li>
                 <li>Collaborate with project managers and clients to understand needs, incorporate regular feedback, and create desired outcomes</li>
-                <li>Translate design documents and mock-ups into working pages and solutions  </li>
+                <li>Translate design documents and mockups into working pages and solutions  </li>
                 <li>Train other consultants at Gimmal in installing products, troubleshooting issues, and writing customized code for their clients </li>
-                <li>Contribute to Support Team in research and triage of support tickets </li>
+                <li>Contribute to Support Team to triage, research, and resolution of escalated support tickets</li>
+                <li>Develop training references for custom developed modules</li>
+                <li>Contributed to project task definition and estimates and managed and reported status accordingly</li>
               </ul> 
             </p>
           </Col>
