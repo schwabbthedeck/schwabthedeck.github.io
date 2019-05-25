@@ -34,7 +34,7 @@ export default () => (
       <MyJumbo 
         title={"Hi, I'm Jane!"}
         body={
-          "If you're looking for a software engineer who loves a good challenge, look no further."
+          "If you're looking for a developer who loves a good challenge, look no further."
         }
       />
 
