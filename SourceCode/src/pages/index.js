@@ -34,7 +34,7 @@ export default () => (
       <MyJumbo 
         title={"Hi, I'm Jane!"}
         body={
-          "If you're looking for a developer who loves a good challenge, look no further."
+          "If you're looking for a developer who loves a good challenge, or a STEM tutor who has a passion for inspiring students, look no further."
         }
       />
 
@@ -61,13 +61,27 @@ export default () => (
             {/* <h5>I love Coffee. I mean, more than people normaly like coffee</h5>
             <br /> */}
             <p>
-              I'm a developer with five years of experience as a technical consultant. I enjoy working with
-              all different kinds of technologies. I have a passion for front-end development, and also have experiecne in .NET and C#. And I'm always up to learn a new language or technology. 
+              I'm a developer based in Pittsburgh, Pennsylvania with five years of experience as a technical consultant. I'm currently working full-time as a SharePoint developer but also open to part-time work. Feel free to reach out to me if you have any kind of programming need.
+
+              <br />
+              <br />
+
+              My passion is in front-end development and creating a great user experience. However, I enjoy working with all kinds of technologies and have experience not only with HTML, CSS, JavaScript, but also in C#. And I'm always up to learn a new language or technology.
+
+              <br />
+              <br />
+              
+              My education is in Mechanical Engineering, so I'm also very comfortable and strong in mathematics. If you're looking for a math, science, or physics from high school to college levels, feel free to reach out as well. I love tutoring and teaching and inspiring students to unlock their full potential.
+
+              <br />
+              <br />
+
+              {/* I enjoy working with all different kinds of technologies. I have a passion for front-end development, and also have experiecne in .NET and C#. And I'm always up to learn a new language or technology. 
               <br />
               <br />
               I'm a quick learner and can learn on the fly to get the job done. I love digging in and solving problems. I don't take myself too seriously, love a good team setting, but always take my work professionally. 
               <br />
-              <br />
+              <br /> */}
               {/* As a Senior Consultant at Gimmal, I filled the technical roles of projects. This included
               creating custom applications and interfaces for our clients in SharePoint.
               <br />
@@ -90,6 +104,33 @@ export default () => (
         </Row>
         <hr />
         {/* This is the beginning of the career section*/}
+        <Row>
+          <Col>
+            <h3>Current employment</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h5>KRT SharePoint Developer</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Perkins Eastman, Pittsburgh, PA</Col>
+          <Col>June 2019 - Present</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p style={{ marginTop: "1rem" }}>
+              <ul style={{ listStyle: "disc" }}>
+                <li>Maintain custom intranet in SharePoint</li>
+                <li>Fix bugs and update code inherited from previous phase projects</li>
+                <li>Design and develop cutsom pages</li>
+                <li>Communicate with various teams throughout the company to ensure all their requirements are met for their teams' sites</li>
+              </ul> 
+            </p>
+          </Col>
+        </Row>
+        <hr />
         <Row>
           <Col>
             <h3>Past work experience</h3>
