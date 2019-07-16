@@ -5,7 +5,7 @@ export default () => (
   <Layout>
     <div className="text-center">
       <h1 style={{ marginTop: "15rem", marginBottom: "15rem" }}>
-        Page not Found!
+        Oops! Page not Found!
       </h1>
     </div>
   </Layout>

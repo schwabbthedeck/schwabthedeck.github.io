@@ -50,6 +50,7 @@ export default () => (
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem" }}>
           <MyButton text={"Resume download"} URL={CV} />
           <MyButton text={"LinkedIn Profile"} URL="https://www.linkedin.com/in/jane-schwab-b7019538/" />
+          <MyButton text={"GitHub Profile"} URL="https://github.com/schwabthedeck" />
         </Row>
         <Row>
           <Col>
