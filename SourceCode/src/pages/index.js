@@ -123,10 +123,10 @@ export default () => (
           <Col>
             <p style={{ marginTop: "1rem" }}>
               <ul style={{ listStyle: "disc" }}>
-                <li>Maintain custom intranet in SharePoint</li>
+                <li>Maintain custom intranet in SharePoint which consists of writing custom SharePoint functionality</li>
+                <li>Design and develop custom SharePoint add-ins, forms, page layouts, pages, and display templates</li>
                 <li>Fix bugs and update code inherited from previous phase projects</li>
-                <li>Design and develop cutsom pages</li>
-                <li>Communicate with various teams throughout the company to ensure all their requirements are met for their teams' sites</li>
+                <li>Communicate with various teams to ensure all their requirements are met for their teams' sites</li>
               </ul> 
             </p>
           </Col>
