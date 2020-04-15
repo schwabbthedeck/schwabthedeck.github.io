@@ -1,0 +1,50 @@
+/* .brand-label {
+  margin-left: 15px;
+} */
+/* .my-side-menu {
+  display: none;
+} */
+
+.my-side-menu .icon-bar a {
+  color: rgba(255,255,255,.5);
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.my-side-menu .icon-bar a svg {
+  height: 30px;
+  width: 30px;
+}
+
+/* only need to style when it isn't collapsed */
+@media (min-width: 768px) {
+  .my-side-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    display: block;
+  }
+
+  .my-side-menu .my-nav {
+    width: 100%;
+    display: block;
+  }
+
+  .my-side-menu .my-nav .nav-link {
+    display: block;
+  }
+
+  .my-side-menu .icon-bar {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 35px;
+    /* margin: auto;
+    width: 150px; */
+  }
+
+  .my-side-menu .icon-bar a {
+    margin: 10px 20px;
+  }
+}

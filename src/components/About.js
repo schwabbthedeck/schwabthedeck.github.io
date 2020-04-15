@@ -1,8 +1,18 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
   return (
-    <h1>About</h1>
+    <div className='aboutpage'>
+      <Container>
+        <Row>
+          <Col>
+            <h1>About</h1>
+            <p></p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

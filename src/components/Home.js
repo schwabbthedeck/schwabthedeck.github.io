@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css'
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
@@ -6,11 +7,14 @@ function Home() {
     <div className='homepage'>
       <Container>
         <Row>
-          <Col>
-            <h1>Welcome!</h1>
-            <div>
-              Hello!
-            </div>
+          <Col xs lg={6}>
+            <h1>Jane Schwab</h1>
+            <p>
+              Hello! I'm Jane, a full-stack developer always looking to learn more.
+            </p>
+            <p>
+              Explore my site and let me know what you think.
+            </p>
           </Col>
         </Row>
       </Container>

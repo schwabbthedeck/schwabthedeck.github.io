@@ -1,0 +1,10 @@
+h1, .roboto-text {
+  font-family: 'Roboto Slab';
+}
+
+/* styles for when menu is to the left */
+@media (min-width: 768px) {
+  .content-area {
+    margin-left: 250px;
+  }
+}
