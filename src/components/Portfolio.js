@@ -1,8 +1,17 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Portfolio() {
   return (
-    <h1>Portfolio</h1>
+    <div className="portfolio">
+      <Container>
+        <Row>
+          <Col>
+            <h1>Portfolio</h1>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

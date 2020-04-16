@@ -9,7 +9,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Error from './components/Error';
 
-import TopMenu from './components/TopMenu';
+// import TopMenu from './components/TopMenu';
 import SideMenu from './components/SideMenu';
 
 function Site() {

@@ -5,6 +5,10 @@
   display: none;
 } */
 
+.my-side-menu .icon-bar {
+  padding-top: 10px;
+}
+
 .my-side-menu .icon-bar a {
   color: rgba(255,255,255,.5);
   height: 30px;
@@ -20,7 +24,7 @@
 /* only need to style when it isn't collapsed */
 @media (min-width: 768px) {
   .my-side-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     width: 250px;
@@ -45,6 +49,6 @@
   }
 
   .my-side-menu .icon-bar a {
-    margin: 10px 20px;
+    margin: 10px 10px;
   }
 }

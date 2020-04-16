@@ -7,4 +7,14 @@ h1, .roboto-text {
   .content-area {
     margin-left: 250px;
   }
+
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* homepage styles */
+.home-page {
+  padding-top: 25vh;
 }

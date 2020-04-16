@@ -1,16 +1,15 @@
 import React from 'react';
-import './Home.css'
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
   return (
-    <div className='homepage'>
+    <div className='home-page'>
       <Container>
         <Row>
-          <Col xs lg={6}>
-            <h1>Jane Schwab</h1>
+          <Col xs lg={8}>
+            <h1>Hello!</h1>
             <p>
-              Hello! I'm Jane, a full-stack developer always looking to learn more.
+              I'm Jane. I have been a software engineer and have full-stack experience. I am currently focused on front-end web development.
             </p>
             <p>
               Explore my site and let me know what you think.
