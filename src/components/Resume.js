@@ -19,7 +19,7 @@ function Resume() {
           </Col>
         </Row>
         {/* Perkins Eastman */}
-        <Row>
+        <Row className="job-section">
           <Col>
             <h5>KRT SharePoint Developer</h5>
           </Col>
@@ -40,13 +40,13 @@ function Resume() {
           </Col>
         </Row>
         {/* Gimmal */}
-        <Row>
+        <Row className="job-section">
           <Col>
             <h5>Senior Consultant</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Gimmal, Houston, TX</Col>
+          <Col>Gimmal, Houston, TX / Remote</Col>
           <Col>April 2017 - May 2019</Col>
         </Row>
         <Row>
@@ -64,13 +64,13 @@ function Resume() {
             </ul>
           </Col>
         </Row>
-        <Row>
+        <Row className="job-section">
           <Col>
             <h5>Software Engineer</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Gimmal, Houston, TX/Full-time remote</Col>
+          <Col>Gimmal, Houston, TX</Col>
           <Col>November 2014 - April 2017</Col>
         </Row>
         <Row>
@@ -85,7 +85,7 @@ function Resume() {
           </Col>
         </Row>
         {/* Beach street */}
-        <Row>
+        <Row className="job-section">
           <Col>
             <h5>Junior Developer</h5>
           </Col>
@@ -105,7 +105,7 @@ function Resume() {
           </Col>
         </Row>
         {/* UNH Research */}
-        <Row>
+        <Row className="job-section">
           <Col>
             <h5>Research Assistant</h5>
           </Col>

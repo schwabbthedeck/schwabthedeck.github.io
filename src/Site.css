@@ -14,7 +14,16 @@ h1, .roboto-text {
   }
 }
 
+.about-page, .portfolio, .resume, .contact-page, .error-page {
+  padding-top: 3vh;
+}
+
 /* homepage styles */
 .home-page {
   padding-top: 25vh;
+}
+
+/* resume */
+.resume .job-section {
+  margin-top: 2vh;
 }
