@@ -9,7 +9,7 @@ function Error() {
           <Col>
             <h1>Page Not Found</h1>
             <p>Sorry, it looks like the page you're looking for is missing.</p>
-            <p><a href="/contact">Drop me a line</a> or <a href="/">return home.</a></p>
+            <p><a href="/contact">Drop me a line</a> to let me know or just <a href="/">return home.</a></p>
           </Col>
         </Row>
       </Container>
