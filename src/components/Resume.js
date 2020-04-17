@@ -6,6 +6,7 @@ function Resume() {
   return (
     <div className='resume'>
       <Container>
+        {/* TODO: add skill sets here? */}
         <Row>
           <Col>
             <h1>Resume</h1>

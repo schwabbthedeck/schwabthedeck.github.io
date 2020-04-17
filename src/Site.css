@@ -27,3 +27,7 @@ h1, .roboto-text {
 .resume .job-section {
   margin-top: 2vh;
 }
+
+.resume h5 {
+  font-family: 'Roboto Slab';
+}
