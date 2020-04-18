@@ -13,7 +13,7 @@ function Contact() {
         </Row>
         <Row>
           <Col xs lg={9}>
-            <p>You can reach me on <a href="https://www.linkedin.com/in/jane-schwab/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or by email. </p>
+            <p>You can reach me on <a href="https://www.linkedin.com/in/jane-schwab/">LinkedIn</a> or by email. </p>
             <p>Fill out the form below to send me an email. Ensure your email address is correct or provide another way to contact you in the message. Thanks!</p>
           </Col>
         </Row>
