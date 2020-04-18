@@ -1,0 +1,22 @@
+.portfolio .card-row {
+  background: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.5);
+  margin: 20px 15px;
+  min-height: 200px;
+}
+
+.portfolio .card-image-col {
+  padding: 0px;
+  border-radius: 5px;
+  border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+.portfolio .card-image-col .card-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio .card-body {
+  color: #212529;
+}
