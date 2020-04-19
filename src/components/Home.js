@@ -9,7 +9,7 @@ function Home() {
           <Col xs lg={8}>
             <h1>Hello!</h1>
             <p>
-              I'm Jane. I am a developer with experience as a software engineer and a full-stack developer. I am currently focused on front-end web development.
+              I'm Jane. I am a developer with experience as a software engineer and a full-stack developer. I am currently focused on front-end web development building websites and their components.
             </p>
             <p>
               Explore my site and let me know what you think.

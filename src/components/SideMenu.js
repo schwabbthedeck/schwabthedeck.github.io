@@ -25,10 +25,10 @@ class SideMenu extends React.Component {
             <NavLink href="/contact">Contact</NavLink>
           </Nav>
           <div className="icon-bar">
-            <a href="https://github.com/schwabthedeck">
+            <a href="https://github.com/schwabthedeck" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/in/jane-schwab/">
+            <a href="https://www.linkedin.com/in/jane-schwab/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
             <a href="/contact">

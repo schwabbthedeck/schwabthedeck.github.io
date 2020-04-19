@@ -6,7 +6,6 @@ function Resume() {
   return (
     <div className='resume'>
       <Container>
-        {/* TODO: add skill sets here? */}
         <Row>
           <Col>
             <h1>Resume</h1>
@@ -19,6 +18,24 @@ function Resume() {
             </div>
           </Col>
         </Row>
+        <hr />
+        <Row>
+          <Col>
+            <h5>Technical Skills</h5>
+            <ul>
+              <li>Enjoys web and front-end technologies most</li>
+              <li>Proficient in: JavaScript, including React and npm; HTML; CSS; C#; PowerShell; SharePoint 2013/2016/Online</li>
+              <li>Knowledgeable in: Python; MATLAB; LaTeX</li>
+              <li>Comfortable self-teaching and learning new languages and technologies</li>
+            </ul> 
+            <h5>Natural Languages</h5>
+            <ul>
+              <li>English (native)</li>
+              <li>German (elementary proficiency)</li>
+            </ul>
+          </Col>
+        </Row>
+        <hr />
         {/* Perkins Eastman */}
         <Row className="job-section">
           <Col>
@@ -32,9 +49,9 @@ function Resume() {
         <Row>
           <Col>
             <ul>
-              {/* TODO update wording here away from SharePoint. Mention design */}
               <li>Maintain custom intranet in SharePoint which consists of writing custom SharePoint functionality</li>
               <li>Design and develop custom SharePoint add-ins, forms, page layouts, pages, and display templates</li>
+              <li>Most development work is done using JavaScript, HTML, and CSS. Custom PowerShell scripts are also sometimes needed</li>
               <li>Fix bugs and update code inherited from previous phase projects</li>
               <li>Communicate with various teams to ensure all their requirements are met for their teams' sites</li>
             </ul>
