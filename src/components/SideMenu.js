@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './jsLogo.svg';
-import { Navbar, Nav, NavLink } from 'react-bootstrap';
-// import { NavLink} from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
@@ -18,11 +18,11 @@ class SideMenu extends React.Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse>
           <Nav className="my-nav">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/about">About</NavLink>
-            <NavLink href="/portfolio">Portfolio</NavLink>
-            <NavLink href="/resume">Resume</NavLink>
-            <NavLink href="/contact">Contact</NavLink>
+            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/about" className="nav-link">About</Link>
+            <Link to="/portfolio" className="nav-link">Portfolio</Link>
+            <Link to="/resume" className="nav-link">Resume</Link>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </Nav>
           <div className="icon-bar">
             <a href="https://github.com/schwabthedeck" target="_blank" rel="noopener noreferrer">

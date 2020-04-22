@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './Site.css';
 
 import Home from './components/Home';
@@ -14,7 +14,7 @@ import SideMenu from './components/SideMenu';
 
 function Site() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         {/* <TopMenu></TopMenu> */}
         <SideMenu></SideMenu>
@@ -29,7 +29,7 @@ function Site() {
           </Switch>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
