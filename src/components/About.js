@@ -12,11 +12,9 @@ function About() {
         </Row>
         <Row>
           <Col xs lg={8}>
-            {/* <p>Hey, I'm Jane and I am a developer</p>
-            <p>Hey, I'm Jane and thanks for checking out my site. I am a developer based in Pittsburgh, Pennsylvania with over five years of programming experience.</p>
-            <p>I took my programming skills from my Mechanical Engineering education and entered the software development arena. I started my career in teams that were creating custom software for content management systems. This software was largely built for SharePoint environments, so I have a strong skill set in programming in Microsoft technologies.</p>
-            <p>My passion is in front-end development and creating a great user experience. However, I enjoy working with all kinds of technologies and have experience not only with HTML, CSS, JavaScript, but also in C#. And I'm always up to learn a new language or technology. Recently, I have been using React to build a lot of my </p>
-            <p>My education is in Mechanical Engineering, so I'm also very comfortable and strong in mathematics. If you're looking for a math, science, or physics from high school to college levels, feel free to reach out as well. I love tutoring and teaching and inspiring students to unlock their full potential.</p> */}
+            <p>Hi, I'm Jane, an experienced developer with a passion for user-centered solutions, both large and small. In my professional experience, which ranges from small business entrepreneurial endeavors to building and implementing larger scale solutions, I have learned that ease of use leads to more users being comfortable and engaging with the solutions efficiently and productively.</p>
+            <p>While it was first highlighted in my engineering education, my strong problem solving abilities and practical intellectual curiosity are skills I have channeled and honed over the years as a developer. This has enabled me to help my clients craft a unique and stand-out first impression that best serves their own market spaces. I work with my clients to build strong and effective user-interfaces that showcases their product and mission in a way that best serves their brand. I firmly believe my clients and I are in a partnership, and I leverage my years of experience with my desire to assist a client in building a modern, efficient, and custom user-friendly web and application platform.</p>
+            <p>If you’d like to learn more about how we can partner together to showcase your endeavors in a user-friendly web environment, I encourage you to <a href="/contact">contact me</a> with any questions—happy to help!</p>
           </Col>
         </Row>
       </Container>
