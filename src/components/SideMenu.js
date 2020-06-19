@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+// import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import './SideMenu.css';
 
 class SideMenu extends React.Component {
@@ -31,9 +31,9 @@ class SideMenu extends React.Component {
             <a href="https://www.linkedin.com/in/jane-schwab/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
-            <a href="/contact">
+            {/* <a href="/contact">
               <FontAwesomeIcon icon={faEnvelopeSquare}></FontAwesomeIcon>
-            </a>
+            </a> */}
           </div>
         </Navbar.Collapse>
       </Navbar>
