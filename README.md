@@ -1,5 +1,9 @@
 # schwabthedeck.github.io
 
-My repository to track my personal website code.
+Repository for code for my personal website. 
 
-Rebuilt to use React. 
+Built using React to get practice with it. 
+
+Always open to feedback and suggestions!
+
+[Check it out here.](https://janeschwab.co/)
