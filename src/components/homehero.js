@@ -1,10 +1,13 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
 
 export default () => {
   return (
     <div className="home-hero">
-      <h1>Gatsby Starter</h1>
-      <h4>A Minimalist Dev Blog Portfolio Starter</h4>
+      <Container>
+        <h1>Hi, hello, world!</h1>
+        <h4>I'm Jane, a web and SharePoint developer.</h4>
+      </Container>
     </div>
   )
 }

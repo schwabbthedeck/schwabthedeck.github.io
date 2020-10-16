@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
         <Row style={{ marginTop: '1.5rem' }}>
           <Col>
             <h1>Credits</h1>
-            <p>Thanks to the following sites for providing illustrations, icons, inspiration, and guidance in building this starter:</p>
+            <p>Thanks to the following sites for providing illustrations, icons, inspiration, and guidance in building my site:</p>
             <ul className="credit-list">
               <li><a href="https://illlustrations.co/" target="_blank" rel="noopener noreferrer">Illustrations from illlustrations.co</a></li>
               <li><a href="https://css.gg/" target="_blank" rel="noopener noreferrer">CSS Icons: css.gg</a></li>
