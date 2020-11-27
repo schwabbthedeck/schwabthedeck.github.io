@@ -7,7 +7,8 @@ import Img from 'gatsby-image'
 project = {
   title: title of project
   description: project description
-  url: link to project
+  demoUrl: link to working example
+  sourceUrl: link to github or source code
   image: image of project to show
 }
 */
@@ -24,9 +25,9 @@ const ProjectCard = (props) => {
         <h2>{props.project.title}</h2>
         <div>{props.project.description}</div>
         <div className="mt-2">
-          <Button href="#" target="_blank" rel="noopener noreferrer">Demo</Button>
-          {`   `}
-          <Button variant="outline-primary" href="#" target="_blank" rel="noopener noreferrer">Source</Button>
+          {props.project.demoUrl ? <Button href={props.project.demoUrl} target="_blank" rel="noopener noreferrer">Demo</Button> : ''}
+          {`  `}
+          {props.project.sourceUrl ? <Button variant="outline-primary" href={props.project.sourceUrl} target="_blank" rel="noopener noreferrer">Source</Button> : ''}
         </div>
       </Col>
     </Row>

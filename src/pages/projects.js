@@ -7,7 +7,7 @@ import ProjectCard from "../components/projectcard"
 const ProjectsPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      projectOneImage: file(relativePath: { eq: "day46-experiment-lab.png" }) {
+      randomWorkoutGenerator: file(relativePath: { eq: "RandomWorkoutGenerator.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -32,10 +32,11 @@ const ProjectsPage = () => {
   `);
   const projects = [
     {
-      title: "Project One Title",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida nec justo ut cursus. Ut pretium interdum turpis, id consectetur risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris auctor ante tortor. Quisque sem nulla, euismod ut eros eu, maximus posuere eros. Pellentesque ac auctor turpis, eget efficitur purus. Nunc ante orci, posuere nec eros eget, tempus imperdiet tellus.",
-      url: "https://www.github.com",
-      image: data.projectOneImage.childImageSharp.fluid
+      title: "Random Workout Generator",
+      description: "A little random workout generator I built to provide people workout inspiration. It was born from a friend working from home saying she was doing random workout exercises based on a card she drew from a deck. It was built with React and hosted on GitHub pages. It contains an option for a random workout exercise, random yoga pose, or an advanced mode.",
+      demoUrl: "https://janeschwab.co/random-workout-generator/",
+      sourceUrl: "https://github.com/schwabthedeck/random-workout-generator",
+      image: data.randomWorkoutGenerator.childImageSharp.fluid
     },
     {
       title: "Project Two Title",

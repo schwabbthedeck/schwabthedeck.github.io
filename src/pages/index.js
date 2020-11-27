@@ -19,10 +19,12 @@ const IndexPage = ({ data }) => {
             <ProjectImage></ProjectImage>
           </Col>
           <Col>
-            <h1>Current Projects</h1>
-            <p>Use this space as a quick showcase for what you're currently working on.</p>
+            <h1>Current Happenings</h1>
+            <p>Currently I'm working on updating this site, creating new content, and reacquainting myself with Python.</p>
+            <p>See my most recent projects on my <a href="https://github.com/schwabthedeck" target="_blank" rel="noopener noreferrer">GitHub</a> and my most recent blog posts below. And always feel free to reach out and chat if you want.</p>
+            {/* <p>Use this space as a quick showcase for what you're currently working on.</p>
             <p>It could also be used to give a short summary about yourself.</p>
-            <p>This starter was built to have all the pieces you may want on your site, but also make it easy to not use any features you may not need.</p>
+            <p>This starter was built to have all the pieces you may want on your site, but also make it easy to not use any features you may not need.</p> */}
           </Col>
         </Row>
         <Row style={{ marginTop: '1.5rem' }}>
