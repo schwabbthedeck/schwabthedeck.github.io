@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
   const picture = props.project.image;
   console.log(picture);
   return (
-    <Row className="my-2">
+    <Row className="my-3 pt-3">
       <Col>
         <Img title={props.project.title} alt={props.project.title} fluid={picture} />
       </Col>

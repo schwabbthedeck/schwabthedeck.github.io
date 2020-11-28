@@ -14,14 +14,21 @@ const ProjectsPage = () => {
           }
         }
       }
-      projectTwoImage: file(relativePath: { eq: "day66-travel.png" }) {
+      announcementsWebPart: file(relativePath: { eq: "AnnouncementsWebPartScreenShot.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      projectThreeImage: file(relativePath: { eq: "day68-happy-cat.png" }) {
+      fancyTileWebPart: file(relativePath: { eq: "FancyTileExampleScreenShot.png" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      gatsbyStarter: file(relativePath: { eq: "GatsbyStarter.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -39,16 +46,23 @@ const ProjectsPage = () => {
       image: data.randomWorkoutGenerator.childImageSharp.fluid
     },
     {
-      title: "Project Two Title",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida nec justo ut cursus. Ut pretium interdum turpis, id consectetur risus.",
-      url: "https://www.github.com",
-      image: data.projectTwoImage.childImageSharp.fluid
+      title: "Fancy Tile SharePoint App",
+      description: "The Fancy Tiles App is a SharePoint App that installs the Fancy Tiles web part that renders list items into 'tiles'. The tiles are based on a configuration list in the app web. The web part can be configured to have text overlays on hover from all directions. Instructions on how to download, install, and configure are in the source GitHub repository.",
+      sourceUrl: "https://github.com/schwabthedeck/FancyTiles",
+      image: data.fancyTileWebPart.childImageSharp.fluid
     },
     {
-      title: "Project Three Title",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida nec justo ut cursus. Ut pretium interdum turpis, id consectetur risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ",
-      url: "https://www.github.com",
-      image: data.projectThreeImage.childImageSharp.fluid
+      title: "Announcements SharePoint App",
+      description: "The Announcements SharePoint App is a SharePoint app that installs the Announcements web part. It is designed to display announcements from an out-of-the-box announcements list in SharePoint. The web part relies on the out-of-the-box columns that are associated with the announcements list template. This is why the web part can only be used with a list that was created using the announcements list template. Instructions on how to download, install, and configure are in the source GitHub repository.",
+      sourceUrl: "https://github.com/schwabthedeck/AnnouncementsWebPart",
+      image: data.announcementsWebPart.childImageSharp.fluid
+    },
+    {
+      title: "Gatsby Starter",
+      description: "This Gatsby starter is a minimalist style portfolio site primarily developed with developers in mind. It contains a page to show off projects, your resume, and blog posts. It also has support for code blocks in the blog posts. This is the base I am using for this site.",
+      demoUrl: "https://gatsby-min-dev-blog-portfolio.netlify.app/",
+      sourceUrl: "https://github.com/schwabthedeck/gatsby-min-dev-blog-portfolio",
+      image: data.gatsbyStarter.childImageSharp.fluid
 
     }
   ]
