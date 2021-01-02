@@ -7,7 +7,7 @@
 // You can delete this file if you're not using it
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require(`path`);
-const fs = require("fs")
+// const fs = require("fs")
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -64,20 +64,22 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.onPreInit = () => {
-  if (process.argv[2] === "build") {
-    fs.rmdirSync(path.join(__dirname, "dist"), { recursive: true })
-    fs.renameSync(
-      path.join(__dirname, "public"),
-      path.join(__dirname, "public_dev")
-    )
-  }
-}
+// exports.onPreInit = () => {
+//   if (process.argv[2] === "build") {
+//     fs.rmdirSync(path.join(__dirname, "dist"), { recursive: true })
+//     fs.renameSync(
+//       path.join(__dirname, "public"),
+//       path.join(__dirname, "public_dev")
+//     )
+//   }
+// }
 
-exports.onPostBuild = () => {
-  fs.renameSync(path.join(__dirname, "public"), path.join(__dirname, "dist"))
-  fs.renameSync(
-    path.join(__dirname, "public_dev"),
-    path.join(__dirname, "public")
-  )
-}
+// exports.onPostBuild = () => {
+//   if (process.argv[2] === "build") {
+//     fs.renameSync(path.join(__dirname, "public"), path.join(__dirname, "dist"))
+//     fs.renameSync(
+//       path.join(__dirname, "public_dev"),
+//       path.join(__dirname, "public")
+//     )
+//   }
+// }
