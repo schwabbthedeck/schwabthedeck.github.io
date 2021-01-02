@@ -66,7 +66,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 // exports.onPreInit = () => {
 //   if (process.argv[2] === "build") {
-//     fs.rmdirSync(path.join(__dirname, "dist"), { recursive: true })
+//     fs.rmdirSync(path.join(__dirname, "docs"), { recursive: true })
 //     fs.renameSync(
 //       path.join(__dirname, "public"),
 //       path.join(__dirname, "public_dev")
@@ -75,11 +75,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 // }
 
 // exports.onPostBuild = () => {
-//   if (process.argv[2] === "build") {
-//     fs.renameSync(path.join(__dirname, "public"), path.join(__dirname, "dist"))
-//     fs.renameSync(
-//       path.join(__dirname, "public_dev"),
-//       path.join(__dirname, "public")
-//     )
-//   }
+//   fs.renameSync(path.join(__dirname, "public"), path.join(__dirname, "docs"))
+//   fs.renameSync(
+//     path.join(__dirname, "public_dev"),
+//     path.join(__dirname, "public")
+//   )
 // }
