@@ -9,7 +9,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About Me</h1>
-    <p>Hi, I'm Jane, a SharePoint and web developer.</p>
+    <p>Hi, I'm Jane, a web and SharePoint developer.</p>
     <p>I have a passion for user-centered solutions and specialize in listening to customer pain points and trying to create solutions that address them. Sometimes the simplest solution is the best one.</p>
     <p>My education is in mechanical engineering and has resulted in me being a proactive problem-solver and seeking the most efficient solution for my clients. It also means I'm a bit of a math nerd.</p>
 
