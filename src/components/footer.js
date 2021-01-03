@@ -6,7 +6,7 @@ export default () => (
   <Container fluid className="footer px-0">
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand className="nav-links">
-        © 2020, Built with
+        © 2021, Built with
           {` `}
         <a title="Gatsby" href="https://www.gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby</a>
       </Navbar.Brand>

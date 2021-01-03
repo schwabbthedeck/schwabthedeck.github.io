@@ -49,7 +49,7 @@ const ProjectsPage = () => {
     {
       title: "Random Workout Generator",
       description: "A little random workout generator I built to provide people workout inspiration. It was born from a friend working from home saying she was doing random workout exercises based on a card she drew from a deck. It was built with React and hosted on GitHub pages. It contains an option for a random workout exercise, random yoga pose, or an advanced mode.",
-      demoUrl: "https://janeschwab.co/random-workout-generator/",
+      demoUrl: "https://schwabthedeck.github.io/random-workout-generator/",
       sourceUrl: "https://github.com/schwabthedeck/random-workout-generator",
       image: data.randomWorkoutGenerator.childImageSharp.fluid
     },
