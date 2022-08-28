@@ -34,8 +34,20 @@
     <script type="text/javascript">
       clippy.load("Clippy", function (agent) {
         // do anything with the loaded agent
+        var test = document.getElementsByTagName("body")[0];
+        // add 200 for clippy
+        var left = test.offsetLeft;
+        var right = test.offsetWidth - left - 120;
+        var top = test.offsetTop;
+        var bottom = test.offsetHeight - top - 90;
+        agent.moveTo(right, bottom);
         agent.show();
         this.agent = agent;
+
+        var clippyDiv = document.getElementsByClassName("clippy")[0];
+        clippyDiv.onclick = function () {
+          animateClippy();
+        };
       });
       function animateClippy() {
         this.agent.animate();
