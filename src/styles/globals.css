@@ -1,0 +1,33 @@
+@tailwind base;
+
+@font-face {
+  font-family: PressStart2P-Regular;
+  src: url("./fonts/PressStart2P-Regular.ttf");
+}
+
+body {
+  /* font-family: PressStart2P-Regular; */
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: #343a40;
+}
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+/* a {
+  @apply text-blue-600;
+} */
+
+@tailwind components;
+@tailwind utilities;
