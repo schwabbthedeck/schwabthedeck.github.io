@@ -7,30 +7,30 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+// import Header from "./header"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-      <div class="container mx-auto max-w-6xl">
+      <div class="container mx-auto max-w-6xl font-PressStart2PRegular">
         <main>{children}</main>
         <footer class="max-w-lg mx-auto py-10">
-          <div class="flex items-center justify-center">
-            <a href="https://github.com/schwabbthedeck" target="_blank">
-              <svg
+          <div class="flex items-center justify-center svg-hover">
+            <a href="https://github.com/schwabbthedeck" target="_blank" rel="noreferrer">
+              <svg 
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
                 fill="currentColor"

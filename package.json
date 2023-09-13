@@ -6,6 +6,9 @@
   "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "clippyjs": "^0.0.3",
+    "cursor-effects": "^1.0.12",
+    "elevator.js": "^1.0.1",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
@@ -23,6 +26,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "easter-egg-collection": "^1.4.56",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.2.0"
   },

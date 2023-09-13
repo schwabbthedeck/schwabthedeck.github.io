@@ -28,6 +28,10 @@ h3 {
 /* a {
   @apply text-blue-600;
 } */
+.svg-hover:hover {
+  color: grey;
+  cursor: pointer;
+}
 
 @tailwind components;
 @tailwind utilities;
