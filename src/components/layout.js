@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <div class="container mx-auto max-w-6xl font-PressStart2PRegular">
         <main>{children}</main>
         <footer class="max-w-lg mx-auto py-10">
-          <div class="flex items-center justify-center svg-hover">
+          <div class="flex items-center justify-center svg-hover text-lg">
             <a href="https://github.com/schwabbthedeck" target="_blank" rel="noreferrer">
               <svg 
                 xmlns="http://www.w3.org/2000/svg"
