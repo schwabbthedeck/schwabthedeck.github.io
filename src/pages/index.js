@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Elevator } from "elevator.js"
+import Elevator from "elevator.js"
 import Ding from "../music/ding.mp3"
 import elevatorMusic from "../music/elevator.mp3"
 import collection from 'easter-egg-collection'
