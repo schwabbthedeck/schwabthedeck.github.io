@@ -1,5 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
+import { Script } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -22,6 +23,7 @@ const IndexPage = () =>
   return (
     <Layout>
       <SEO title="Hello" />
+      <Script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="5d3610cc-040f-462c-9bce-1fe9c668218f" async />
       <div class="grid grid-cols-3 grid-flow-row gap-4 pt-16 m-3 place-content-stretch items-center">
         <div class="place-content-center">
           <StaticImage class="rounded-full w-1/2"
